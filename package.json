@@ -1,0 +1,42 @@
+{
+  "name": "theme-levelup",
+  "version": "0.0.4",
+  "displayName": "Level Up Theme Official",
+  "description": "➕ Official theme of Level Up Tutorials ➕",
+  "publisher": "leveluptutorials",
+  "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesbos/cobalt2-vscode"
+  },
+  "galleryBanner": {
+    "color": "#193549",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Level Up",
+        "uiTheme": "vs-dark",
+        "path": "./theme/levelup.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "nodemon": "^1.12.0",
+    "vsce": "^1.30.0"
+  }
+}
