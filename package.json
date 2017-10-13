@@ -1,6 +1,6 @@
 {
   "name": "theme-levelup",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "displayName": "Level Up Theme Official",
   "description": "➕ Official theme of Level Up Tutorials ➕",
   "publisher": "leveluptutorials",
@@ -10,7 +10,7 @@
     "url": "https://github.com/leveluptuts/level-up-vscode-theme"
   },
   "galleryBanner": {
-    "color": "#193549",
+    "color": "#524763",
     "theme": "dark"
   },
   "categories": [
