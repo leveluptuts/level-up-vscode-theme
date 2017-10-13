@@ -68,7 +68,7 @@
     // and this one is the rest of them
     "editor.wordHighlightBackground": "#FFFFFF0D",
     "editorBracketMatch.background": "#191324",
-    "editorBracketMatch.border": "#52476380",
+    "editorBracketMatch.border": "#9887b3",
     "editorCodeLens.foreground": "#aaa",
     "editorCursor.foreground": "#fff",
     "editorError.border": "#191324",
@@ -122,9 +122,9 @@
     "focusBorder": "#191324",
     "foreground": "#aaa",
     // input
-    "input.background": "#191324",
+    "input.background": "#291f3a",
     "input.border": "#191324",
-    "input.foreground": "#524763",
+    "input.foreground": "#9d8bbb",
     "input.placeholderForeground": "#aaa",
     "inputOption.activeBorder": "#191324",
     "inputValidation.errorBackground": "#191324",
