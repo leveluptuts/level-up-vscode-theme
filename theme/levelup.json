@@ -156,14 +156,14 @@
     "notification.background": "#524763",
     "notification.buttonBackground": "#82d8d8",
     "notification.buttonForeground": "#fff",
-    "notification.buttonHoverBackground": "#ff9d00",
+    "notification.buttonHoverBackground": "#5f9e9e",
     "notification.errorBackground": "#E54B4B",
     "notification.errorForeground": "#fff",
-    "notification.foreground": "#191324",
+    "notification.foreground": "#fff",
     "notification.infoBackground": "#82d8d8",
     "notification.infoForeground": "#fff",
-    "notification.warningBackground": "#ff9d00",
-    "notification.warningForeground": "#191324",
+    "notification.warningBackground": "#E54B4B",
+    "notification.warningForeground": "#fff",
     // panel
     "panel.background": "#191324",
     "panel.border": "#524763",
@@ -195,7 +195,7 @@
     "scrollbarSlider.background": "#52476380",
     "scrollbarSlider.hoverBackground": "#524763cc",
     // selection
-    "selection.background": "#027dff",
+    "selection.background": "#82d8d8",
     // sidebar
     "sideBar.background": "#191324",
     "sideBar.border": "#191324",
