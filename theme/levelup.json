@@ -347,7 +347,7 @@
       "name": "Storage Type Arrow Function",
       "scope": "storage.type.function.arrow",
       "settings": {
-        "foreground": "#524763"
+        "foreground": "#82d8d8"
       }
     },
     {
