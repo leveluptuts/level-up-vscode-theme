@@ -52,12 +52,12 @@
     // when you have something selected, but have lost focus on the editor
     "editor.inactiveSelectionBackground": "#191324",
     // current line styles
-    "editor.lineHighlightBackground": "#524763",
-    "editor.lineHighlightBorder": "#524763",
-    "editor.rangeHighlightBackground": "#524763",
+    "editor.lineHighlightBackground": "#52476366",
+    // "editor.lineHighlightBorder": "#52476366",
+    "editor.rangeHighlightBackground": "#52476366",
     // selected Text colours
     // This is the standard Select colour
-    "editor.selectionBackground": "#524763",
+    "editor.selectionBackground": "#52476366",
     // This is the colour of the other matching elements
     "editor.selectionHighlightBackground": "#524763",
     // if you tab away you can colour it differently, but ill leave this one out
@@ -591,7 +591,7 @@
         "markup.heading.setext.2.markdown"
       ],
       "settings": {
-        "foreground": "#524763",
+        "foreground": "#E54B4B",
         "fontStyle": "bold"
       }
     },
