@@ -2,8 +2,7 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/leveluptutorials.theme-levelup.svg)](https://marketplace.visualstudio.com/items?itemName=leveluptutorials.theme-level-up)
 
-<!-- ![Preview](https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png) -->
-
+![Preview](images/level-up-preview.png)
 
 # Installation
 
