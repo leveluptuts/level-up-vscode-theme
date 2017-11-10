@@ -105,9 +105,9 @@
     // editorSuggestWidget
     "editorSuggestWidget.background": "#191324",
     "editorSuggestWidget.border": "#191324",
-    "editorSuggestWidget.foreground": "#aaa",
-    "editorSuggestWidget.highlightForeground": "#524763",
-    "editorSuggestWidget.selectedBackground": "#191324",
+    "editorSuggestWidget.foreground": "#FFF",
+    "editorSuggestWidget.highlightForeground": "#82d8d8",
+    "editorSuggestWidget.selectedBackground": "#524763",
     // editorWarning
     "editorWarning.border": "#ffffff00",
     "editorWarning.foreground": "#524763",
