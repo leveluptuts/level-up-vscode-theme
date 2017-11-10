@@ -259,7 +259,12 @@
     "titleBar.inactiveForeground": "#ffffff33",
     "walkThrough.embeddedEditorBackground": "#191324",
     "welcomePage.buttonBackground": "#191324",
-    "welcomePage.buttonHoverBackground": "#191324"
+    "welcomePage.buttonHoverBackground": "#191324",
+    // gitDecoration
+    "gitDecoration.ignoredResourceForeground": "#52476380",
+    "gitDecoration.modifiedResourceForeground": "#ff9d00",
+    "gitDecoration.untrackedResourceForeground": "#3C9F4A",
+    "gitDecoration.deletedResourceForeground": "#E54B4B"
   },
   "tokenColors": [
     {
