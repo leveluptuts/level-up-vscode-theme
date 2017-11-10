@@ -5,7 +5,8 @@
 		{
 			"name": "Launch Extension",
 			"type": "extensionHost",
-			"request": "launch",
+      "request": "launch",
+      "cwd":"/Users/scotttolinski/Sites/level-up",
 			"runtimeExecutable": "${execPath}",
 			"args": ["--extensionDevelopmentPath=${workspaceRoot}" ]
 		}
