@@ -71,7 +71,7 @@
     "editorBracketMatch.border": "#9887b3",
     "editorCodeLens.foreground": "#aaa",
     "editorCursor.foreground": "#fff",
-    "editorError.border": "#191324",
+    "editorError.border": "#9887b3",
     "editorError.foreground": "#E54B4B",
     // gutter
     "editorGutter.background": "#19132466",
@@ -198,7 +198,7 @@
     "selection.background": "#82d8d8",
     // sidebar
     "sideBar.background": "#191324",
-    "sideBar.border": "#191324",
+    "sideBar.border": "#52476366",
     "sideBar.foreground": "#524763",
     "sideBarSectionHeader.background": "#191324",
     "sideBarSectionHeader.foreground": "#aaaaaa",
@@ -269,10 +269,7 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#82d8d8"
@@ -357,20 +354,14 @@
     },
     {
       "name": "String",
-      "scope": [
-        "string",
-        "punctuation.definition.string"
-      ],
+      "scope": ["string", "punctuation.definition.string"],
       "settings": {
         "foreground": "#CBE56C"
       }
     },
     {
       "name": "String Template",
-      "scope": [
-        "string.template",
-        "punctuation.definition.string.template"
-      ],
+      "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
         "foreground": "#CBE56C"
       }
@@ -405,10 +396,7 @@
     },
     {
       "name": "[CSS] - Entity",
-      "scope": [
-        "source.css entity",
-        "source.stylus entity"
-      ],
+      "scope": ["source.css entity", "source.stylus entity"],
       "settings": {
         "foreground": "#b8b0c6"
       }
@@ -429,10 +417,7 @@
     },
     {
       "name": "[CSS] - Support",
-      "scope": [
-        "source.css support",
-        "source.stylus support"
-      ],
+      "scope": ["source.css support", "source.stylus support"],
       "settings": {
         "foreground": "#CBE56C"
       }
@@ -463,10 +448,7 @@
     },
     {
       "name": "[CSS] - Variable",
-      "scope": [
-        "source.css variable",
-        "source.stylus variable"
-      ],
+      "scope": ["source.css variable", "source.stylus variable"],
       "settings": {
         "foreground": "#9588aa"
       }
@@ -501,8 +483,10 @@
       }
     },
     {
-      "name": "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
-      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "name":
+        "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+      "scope":
+        "punctuation.definition.string.begin, punctuation.definition.string.end",
       "settings": {
         "foreground": "#92fc79"
       }
@@ -682,20 +666,14 @@
     },
     {
       "name": "[MARKDOWN] - Inline Code",
-      "scope": [
-        "fenced_code.block.language",
-        "markup.inline.raw.markdown"
-      ],
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
       }
     },
     {
       "name": "[MARKDOWN] - Code Block",
-      "scope": [
-        "fenced_code.block.language",
-        "markup.inline.raw.markdown"
-      ],
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
       }
