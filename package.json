@@ -13,8 +13,13 @@
     "color": "#524763",
     "theme": "dark"
   },
-  "categories": ["Themes"],
-  "keywords": ["VSCode", "Themes"],
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
   "engines": {
     "vscode": "^1.15.0"
   },
@@ -27,6 +32,11 @@
         "label": "Level Up",
         "uiTheme": "vs-dark",
         "path": "./theme/levelup.json"
+      },
+      {
+        "label": "Level Up Two Electric Boogaloo",
+        "uiTheme": "vs-dark",
+        "path": "./theme/two.json"
       }
     ]
   },
