@@ -300,7 +300,7 @@
       "name": "Keyword",
       "scope": "keyword, storage.type.class.js",
       "settings": {
-        "foreground": "#E54B4B"
+        "foreground": "#F67B7B"
       }
     },
     {
@@ -377,7 +377,7 @@
       "name": "Support Function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#82d8d8"
       }
     },
     {
@@ -412,7 +412,7 @@
       "name": "[CSS] - Element Selector",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#EB5757"
+        "foreground": "#F67B7B"
       }
     },
     {
@@ -523,14 +523,14 @@
       "name": "[JAVASCRIPT] - Storage Type Function",
       "scope": "source.js storage.type.function",
       "settings": {
-        "foreground": "#EB5757"
+        "foreground": "#F67B7B"
       }
     },
     {
       "name": "[JAVASCRIPT] - Variable Language",
       "scope": "variable.language, entity.name.type.class.js",
       "settings": {
-        "foreground": "##F67B7B"
+        "foreground": "#F67B7B"
       }
     },
     {
