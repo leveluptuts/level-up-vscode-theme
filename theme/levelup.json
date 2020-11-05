@@ -137,13 +137,14 @@
     "list.activeSelectionBackground": "#191324",
     "list.activeSelectionForeground": "#aaa",
     "list.dropBackground": "#191324",
-    "list.focusBackground": "#191324",
+    "list.focusBackground": "#524763",
+    "list.highlightForeground": "#CBE56C",
     "list.focusForeground": "#aaa",
-    "list.highlightForeground": "#524763",
     "list.hoverBackground": "#191324",
     "list.hoverForeground": "#aaa",
     "list.inactiveSelectionBackground": "#191324",
     "list.inactiveSelectionForeground": "#aaa",
+
     // merge
     "merge.border": "#ffffff00",
     "merge.commonContentBackground": "#ffffff00",
@@ -271,8 +272,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#82d8d8"
+        "foreground": "#524763"
       }
     },
     {
@@ -483,10 +483,8 @@
       }
     },
     {
-      "name":
-        "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
-      "scope":
-        "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "name": "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
       "settings": {
         "foreground": "#92fc79"
       }
