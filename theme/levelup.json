@@ -2,12 +2,12 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Level Up",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     // activityBar
     "activityBar.background": "#191324",
     "activityBar.border": "#191324",
-    "activityBar.dropBackground": "#191324",
-    "activityBar.foreground": "#524763",
+    "activityBar.foreground": "#ffffff",
     "activityBarBadge.background": "#82d8d8",
     "activityBarBadge.foreground": "#191324",
     // badge
@@ -17,9 +17,6 @@
     "button.background": "#82d8d8",
     "button.foreground": "#191324",
     "button.hoverBackground": "#9ce0e0",
-    // contrast
-    "contrastActiveBorder": null,
-    "contrastBorder": "#ffffff00",
     // debug
     "debugExceptionWidget.background": "#191324",
     "debugExceptionWidget.border": "#aaa",
@@ -29,8 +26,8 @@
     // diff
     "diffEditor.insertedTextBackground": "#3ad90011",
     "diffEditor.insertedTextBorder": "#3ad90055",
-    "diffEditor.removedTextBackground": "#ee3a4311",
-    "diffEditor.removedTextBorder": "#ee3a4355",
+    "diffEditor.removedTextBackground": "#E54B4B11",
+    "diffEditor.removedTextBorder": "#E54B4B",
     // dropdown
     "dropdown.background": "#191324",
     "dropdown.border": "#191324",
@@ -42,11 +39,11 @@
     "editor.foreground": "#fff",
     // Okay this part is confusing as heck!
     // Currently found item
-    "editor.findMatchBackground": "#E54B4B",
+    "editor.findMatchBackground": "#E54B4B66",
     // Other Found Items int the document
-    "editor.findMatchHighlightBackground": "#CAD40F66",
+    "editor.findMatchHighlightBackground": "#E54B4B66",
     // WTF is this one for? I don't know
-    "editor.findRangeHighlightBackground": "#243E51",
+    "editor.findRangeHighlightBackground": "#E54B4B66",
     // When you hover over something and a popup shows, this highlights that thing
     "editor.hoverHighlightBackground": "#52476333",
     // when you have something selected, but have lost focus on the editor
@@ -79,7 +76,6 @@
     "editorGutter.deletedBackground": "#E54B4B",
     "editorGutter.modifiedBackground": "#524763",
     // editorGroup
-    "editorGroup.background": "#E54B4B",
     "editorGroup.border": "#191324",
     "editorGroup.dropBackground": "#19132499",
     // editorGroupHeader
@@ -113,7 +109,7 @@
     "editorWarning.foreground": "#524763",
     "editorWhitespace.foreground": "#ffffff1a",
     "editorWidget.background": "#191324",
-    "editorWidget.border": "#191324",
+    "editorWidget.border": "#ffffff",
     "errorForeground": "#E54B4B",
     // extensionButton
     "extensionButton.prominentBackground": "#82d8d8",
@@ -122,8 +118,8 @@
     "focusBorder": "#191324",
     "foreground": "#aaa",
     // input
-    "input.background": "#291f3a",
-    "input.border": "#191324",
+    "input.background": "#191324",
+    "input.border": "#524763dd",
     "input.foreground": "#9d8bbb",
     "input.placeholderForeground": "#aaa",
     "inputOption.activeBorder": "#191324",
@@ -134,16 +130,17 @@
     "inputValidation.warningBackground": "#191324",
     "inputValidation.warningBorder": "#524763",
     // list
-    "list.activeSelectionBackground": "#191324",
-    "list.activeSelectionForeground": "#aaa",
+    "list.activeSelectionBackground": "#82d8d8",
+    "list.activeSelectionForeground": "#191324",
     "list.dropBackground": "#191324",
-    "list.focusBackground": "#191324",
-    "list.focusForeground": "#aaa",
-    "list.highlightForeground": "#524763",
-    "list.hoverBackground": "#191324",
-    "list.hoverForeground": "#aaa",
+    "list.focusBackground": "#82d8d8",
+    "list.focusForeground": "#191324",
+    "list.highlightForeground": "#191324",
+    "list.hoverBackground": "#82d8d8",
+    "list.hoverForeground": "#191324",
     "list.inactiveSelectionBackground": "#191324",
-    "list.inactiveSelectionForeground": "#aaa",
+    "list.inactiveSelectionForeground": "#82d8d8aa",
+    "list.deemphasizedForeground": "#82d8d8aa",
     // merge
     "merge.border": "#ffffff00",
     "merge.commonContentBackground": "#ffffff00",
@@ -152,18 +149,6 @@
     "merge.currentHeaderBackground": "#ffffff00",
     "merge.incomingContentBackground": "#ffffff00",
     "merge.incomingHeaderBackground": "#ffffff00",
-    // notification
-    "notification.background": "#524763",
-    "notification.buttonBackground": "#82d8d8",
-    "notification.buttonForeground": "#fff",
-    "notification.buttonHoverBackground": "#5f9e9e",
-    "notification.errorBackground": "#E54B4B",
-    "notification.errorForeground": "#fff",
-    "notification.foreground": "#fff",
-    "notification.infoBackground": "#82d8d8",
-    "notification.infoForeground": "#fff",
-    "notification.warningBackground": "#E54B4B",
-    "notification.warningForeground": "#fff",
     // panel
     "panel.background": "#191324",
     "panel.border": "#524763",
@@ -201,14 +186,14 @@
     "sideBar.border": "#52476366",
     "sideBar.foreground": "#524763",
     "sideBarSectionHeader.background": "#191324",
-    "sideBarSectionHeader.foreground": "#aaaaaa",
+    "sideBarSectionHeader.foreground": "#fff",
     "sideBarTitle.foreground": "#aaaaaa",
     // statusBar
     "statusBar.background": "#191324",
     "statusBar.border": "#191324",
     "statusBar.debuggingBackground": "#191324",
     "statusBar.debuggingForeground": "#191324",
-    "statusBar.foreground": "#524763",
+    "statusBar.foreground": "#ffffff",
     "statusBar.noFolderBackground": "#191324",
     "statusBar.noFolderForeground": "#524763",
     "statusBarItem.activeBackground": "#82d8d8",
@@ -225,7 +210,6 @@
     "tab.unfocusedActiveForeground": "#aaa",
     "tab.unfocusedInactiveForeground": "#aaa",
     // --- workbench: terminal
-    "terminal.ansiBlack": "#191324191324",
     "terminal.ansiRed": "#ff628c",
     "terminal.ansiGreen": "#3ad900",
     "terminal.ansiYellow": "#524763",
@@ -264,7 +248,9 @@
     "gitDecoration.ignoredResourceForeground": "#52476380",
     "gitDecoration.modifiedResourceForeground": "#82d8d8",
     "gitDecoration.untrackedResourceForeground": "#CBE56C",
-    "gitDecoration.deletedResourceForeground": "#E54B4B"
+    "gitDecoration.deletedResourceForeground": "#E54B4B",
+    "quickInput.background": "#191324",
+    "quickInput.foreground": "#fff"
   },
   "tokenColors": [
     {
@@ -377,7 +363,7 @@
       "name": "Support Function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#f0c05e"
       }
     },
     {
@@ -483,10 +469,8 @@
       }
     },
     {
-      "name":
-        "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
-      "scope":
-        "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "name": "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
       "settings": {
         "foreground": "#92fc79"
       }
@@ -676,27 +660,6 @@
       "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
-      }
-    },
-    {
-      "name": "[PUG] - Entity Name",
-      "scope": "text.jade entity.name",
-      "settings": {
-        "foreground": "#9effff"
-      }
-    },
-    {
-      "name": "[PUG] - Entity Attribute Name",
-      "scope": "text.jade entity.other.attribute-name.tag",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "[PUG] - String Interpolated",
-      "scope": "text.jade string.interpolated",
-      "settings": {
-        "foreground": "#ffee80"
       }
     },
     {

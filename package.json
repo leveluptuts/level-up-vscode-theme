@@ -34,9 +34,14 @@
         "path": "./theme/levelup.json"
       },
       {
-        "label": "Level Up 2 Electric Boogaloo",
+        "label": "Level Up Lighter",
         "uiTheme": "vs-dark",
         "path": "./theme/two.json"
+      },
+      {
+        "label": "Level Up Syntax",
+        "uiTheme": "vs-dark",
+        "path": "./theme/syntax.json"
       }
     ]
   },
