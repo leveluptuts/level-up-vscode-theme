@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Level Up Dark",
+  "name": "Level Up Syntax",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
@@ -9,7 +9,7 @@
     "activityBar.border": "#111",
     "activityBar.foreground": "#fff",
     "activityBarBadge.background": "#f0c05e",
-    "activityBarBadge.foreground": "#eee",
+    "activityBarBadge.foreground": "#111",
     // badge
     "badge.background": "#f0c05e",
     "badge.foreground": "#111",
@@ -675,6 +675,20 @@
       ],
       "settings": {
         "foreground": "#ffffff33"
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Comment",
+      "scope": ["punctuation.definition.comment", "comment.line.double-slash"],
+      "settings": {
+        "foreground": "#ffffff33"
+      }
+    },
+    {
+      "name": "[JS,TS] - Storage",
+      "scope": ["storage.type", "meta.var.expr"],
+      "settings": {
+        "foreground": "#cf256d"
       }
     },
     {

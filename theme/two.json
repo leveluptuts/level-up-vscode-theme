@@ -78,7 +78,6 @@
     "editorGutter.deletedBackground": "#E54B4B",
     "editorGutter.modifiedBackground": "#fff",
     // editorGroup
-    "editorGroup.background": "#E54B4B",
     "editorGroup.border": "#524763",
     "editorGroup.dropBackground": "#19132499",
     // editorGroupHeader
@@ -402,7 +401,7 @@
       "name": "[CSS] - Element Selector",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#F67B7B"
+        "foreground": "#CF256D"
       }
     },
     {
@@ -657,6 +656,20 @@
       "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[TYPESCRIPT] - Comment",
+      "scope": ["punctuation.definition.comment", "comment.line.double-slash"],
+      "settings": {
+        "foreground": "#ffffff33"
+      }
+    },
+    {
+      "name": "[JS,TS] - Storage",
+      "scope": ["storage.type", "meta.var.expr"],
+      "settings": {
+        "foreground": "#cf256d"
       }
     },
     {
