@@ -131,11 +131,11 @@
     "list.activeSelectionBackground": "#f0c05e",
     "list.activeSelectionForeground": "#191324",
     "list.dropBackground": "#191324",
-    "list.focusBackground": "#82d8d8",
-    "list.focusForeground": "#191324",
-    "list.highlightForeground": "#191324",
-    "list.hoverBackground": "#82d8d8",
-    "list.hoverForeground": "#191324",
+    "list.focusBackground": "#f0c05e88",
+    "list.focusForeground": "#eee",
+    "list.highlightForeground": "#ffffff99",
+    "list.hoverBackground": "#f0c05e88",
+    "list.hoverForeground": "#fff",
     "list.inactiveSelectionBackground": "#82d8d8",
     "list.inactiveSelectionForeground": "#191324",
     "list.deemphasizedForeground": "#191324",
@@ -180,6 +180,7 @@
     "scrollbarSlider.hoverBackground": "#82d8d8cc",
     // selection
     "selection.background": "#82d8d8",
+
     // sidebar
     "sideBar.background": "#111",
     "sideBar.border": "#52476366",
@@ -248,7 +249,11 @@
     "gitDecoration.ignoredResourceForeground": "#52476380",
     "gitDecoration.modifiedResourceForeground": "#82d8d8",
     "gitDecoration.untrackedResourceForeground": "#CBE56C",
-    "gitDecoration.deletedResourceForeground": "#E54B4B"
+    "gitDecoration.deletedResourceForeground": "#E54B4B",
+
+    "quickInput.background": "#000",
+    "quickInput.foreground": "#fff",
+    "list.filterMatchBackground": "#fff"
   },
   "tokenColors": [
     {

@@ -133,12 +133,12 @@
     "inputValidation.warningBorder": "#524763",
     // list
 
-    "list.activeSelectionBackground": "#82d8d8",
-    "list.activeSelectionForeground": "#524763",
+    "list.activeSelectionBackground": "#82d8d844",
+    "list.activeSelectionForeground": "#fff",
     "list.dropBackground": "#524763",
-    "list.focusBackground": "#82d8d8",
-    "list.focusForeground": "#524763",
-    "list.highlightForeground": "#524763",
+    "list.focusBackground": "#82d8d844",
+    "list.focusForeground": "#eee",
+    "list.highlightForeground": "#fff",
     "list.hoverBackground": "#82d8d8",
     "list.hoverForeground": "#524763",
     "list.inactiveSelectionBackground": "#524763",
@@ -188,7 +188,7 @@
     // sidebar
     "sideBar.background": "#373142",
     "sideBar.border": "#52476366",
-    "sideBar.foreground": "#ffffff99",
+    "sideBar.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#373142",
     "sideBarSectionHeader.foreground": "#eee",
     "sideBarTitle.foreground": "#eee",

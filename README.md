@@ -2,7 +2,17 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/leveluptutorials.theme-levelup.svg)](https://marketplace.visualstudio.com/items?itemName=leveluptutorials.theme-level-up)
 
-![Preview](images/level-up-preview.png)
+### Level Up Theme
+
+![Preview](images/one.png)
+
+### Level Up Theme Light
+
+![Preview](images/two.png)
+
+### Level Up Theme Syntax.fm Remix
+
+![Preview](images/three.png)
 
 # Installation
 
@@ -16,7 +26,7 @@
 
 1. Launch Quick Open using `Ctrl+P` or `Cmd+P`
 2. Paste the command `ext install theme-level-up`
-3. Follow the installation steps as above. 
+3. Follow the installation steps as above.
 
 ## Thanks
 
