@@ -45,6 +45,11 @@
         "label": "Level Up Syntax",
         "uiTheme": "vs-dark",
         "path": "./theme/syntax.json"
+      },
+      {
+        "label": "Level Up Syntax Cyber",
+        "uiTheme": "vs-dark",
+        "path": "./theme/syntax-cyber.json"
       }
     ]
   },
