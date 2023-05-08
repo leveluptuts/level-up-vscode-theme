@@ -673,7 +673,7 @@
       "name": "[TYPESCRIPT] - Keyword",
       "scope": "source.ts keyword",
       "settings": {
-        "foreground": "#524763"
+        "foreground": "#E54B4B"
       }
     },
     {
